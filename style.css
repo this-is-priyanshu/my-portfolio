@@ -301,3 +301,88 @@ footer {
         width: 50vw !important;
     }
 }
+
+@media (max-width: 450px) {
+    .nav-list {
+        gap: 15px;
+    }
+
+    .nav-list a {
+        font-size: 15px;
+    }
+
+    .intro {
+        flex-direction: column-reverse;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .one {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .one > h1 {
+        font-size: 55px !important;
+        padding-top: 20px;
+    }
+
+    .one > h3 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .one > h1, p {
+        text-align: center;
+    }
+
+    .two > img {
+        height: 200px !important;
+    }
+
+    .about {
+        flex-direction: column;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .four {
+        width: 80vw;
+    }
+
+    .box-1 > h4, .box-1 > h3, .box-1 > p {
+        text-align: center;
+    }
+
+    .box-2 > h4, .box-2 > h3, .box-2 > p, .pr_name {
+        text-align: center;
+    }
+
+    .education, .projects, .contacts {
+        flex-direction: column;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .six {
+        width: 80vw;
+    }
+
+    .eight {
+        display: flex !important;
+        flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .nine > button {
+        width: 50vw !important;
+    }
+}
